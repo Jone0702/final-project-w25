@@ -1,7 +1,7 @@
 .wrapper{
-max-width: 1200px;
-margin: 0 auto; 
-padding: 23px;   
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 23px;   
 }
 
 body{
@@ -73,10 +73,6 @@ border-radius: 8px;
     border-radius: 8px;
 }
 
-.try-cards div{
-    
-}
-
 .try-cards{
     display: flex;
     flex-wrap: wrap;
@@ -100,8 +96,8 @@ border-radius: 8px;
 }
 
 .card img{
-border-top-right-radius: 8px;
-border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 .noir{
@@ -182,12 +178,12 @@ footer{
 @media (min-width: 768px) {
     .image-grid{
         display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-    "div1 div2"
-    "div3 div4";
-    gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "div1 div2"
+        "div3 div4";
+        gap: 20px;
     }
 
     .dough{
